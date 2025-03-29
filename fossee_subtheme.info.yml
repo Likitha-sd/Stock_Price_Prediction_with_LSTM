@@ -1,0 +1,16 @@
+name: 'FOSSEE Subtheme'
+type: theme
+description: 'A custom sub-theme for FOSSEE based on Olivero.'
+core_version_requirement: ^10
+base theme: olivero
+
+libraries:
+  - fossee_subtheme/global-styling
+
+regions:
+  top_banner: 'Top Banner'
+  logo: 'Logo'
+  navigation_menu: 'Navigation Menu'
+  left_sidebar: 'Left Sidebar'
+  content: 'Content'
+  footer: 'Footer'
